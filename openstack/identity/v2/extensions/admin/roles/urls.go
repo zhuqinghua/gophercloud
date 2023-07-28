@@ -1,7 +1,5 @@
 package roles
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	ExtPath  = "OS-KSADM"
 	RolePath = "roles"

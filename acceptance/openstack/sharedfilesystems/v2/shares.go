@@ -2,9 +2,8 @@ package v2
 
 import (
 	"encoding/json"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/sharedfilesystems/v2/shares"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/openstack/sharedfilesystems/v2/shares"
 	"testing"
 )
 

@@ -1,7 +1,5 @@
 package floatingips
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "os-floating-ips"
 
 func resourceURL(c *gophercloud.ServiceClient) string {

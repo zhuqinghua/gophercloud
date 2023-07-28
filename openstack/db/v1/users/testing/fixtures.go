@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/fixture"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/fixture"
 )
 
 const user1 = `

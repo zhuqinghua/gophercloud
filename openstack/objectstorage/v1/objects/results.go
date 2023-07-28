@@ -9,8 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Object is a structure that holds information related to a storage object.

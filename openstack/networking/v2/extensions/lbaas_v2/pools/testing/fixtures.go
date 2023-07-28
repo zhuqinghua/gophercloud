@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 // PoolsListBody contains the canned body of a pool list response.

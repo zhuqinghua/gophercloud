@@ -1,9 +1,8 @@
 package listeners
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 type LoadBalancerID struct {

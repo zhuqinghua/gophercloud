@@ -3,9 +3,8 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/sharedfilesystems/v2/sharetypes"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/sharedfilesystems/v2/sharetypes"
 )
 
 // CreateShareType will create a share type with a random name. An

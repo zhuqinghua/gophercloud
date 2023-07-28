@@ -1,7 +1,5 @@
 package imagedata
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // `imageDataURL(c,i)` is the URL for the binary image data for the
 // image identified by ID `i` in the service `c`.
 func uploadURL(c *gophercloud.ServiceClient, imageID string) string {

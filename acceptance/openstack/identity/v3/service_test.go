@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package v3
@@ -5,9 +6,9 @@ package v3
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v3/services"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/services"
 )
 
 func TestServicesList(t *testing.T) {

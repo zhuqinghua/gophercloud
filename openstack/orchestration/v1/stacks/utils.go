@@ -8,9 +8,6 @@ import (
 	"path/filepath"
 	"reflect"
 	"strings"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gopkg.in/yaml.v2"
 )
 
 // Client is an interface that expects a Get method similar to http.Get. This

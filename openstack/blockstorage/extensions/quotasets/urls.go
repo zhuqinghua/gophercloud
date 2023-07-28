@@ -1,7 +1,5 @@
 package quotasets
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "os-quota-sets"
 
 func getURL(c *gophercloud.ServiceClient, projectID string) string {

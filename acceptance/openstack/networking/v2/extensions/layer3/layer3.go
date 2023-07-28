@@ -3,12 +3,11 @@ package layer3
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/layer3/floatingips"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/layer3/routers"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
 )
 
 // CreateFloatingIP creates a floating IP on a given network and port. An error

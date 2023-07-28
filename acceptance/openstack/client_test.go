@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package openstack
@@ -7,8 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack"
+	"github.com/zhuqinghua/gophercloud.git/openstack"
 )
 
 func TestAuthenticatedClient(t *testing.T) {

@@ -4,9 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/subnets"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/subnets"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestHostRoute(t *testing.T) {

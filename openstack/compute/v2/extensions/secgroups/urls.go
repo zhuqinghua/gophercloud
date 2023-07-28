@@ -1,7 +1,5 @@
 package secgroups
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	secgrouppath = "os-security-groups"
 	rulepath     = "os-security-group-rules"

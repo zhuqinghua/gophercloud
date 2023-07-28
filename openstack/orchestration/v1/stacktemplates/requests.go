@@ -1,7 +1,5 @@
 package stacktemplates
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // Get retreives data for the given stack template.
 func Get(c *gophercloud.ServiceClient, stackName, stackID string) (r GetResult) {
 	_, r.Err = c.Get(getURL(c, stackName, stackID), &r.Body, nil)

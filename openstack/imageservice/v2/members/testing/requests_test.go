@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/imageservice/v2/members"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	fakeclient "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/imageservice/v2/members"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	fakeclient "github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 const createdAtString = "2013-09-20T19:22:19Z"

@@ -2,8 +2,6 @@ package openstack
 
 import (
 	"os"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 var nilOptions = gophercloud.AuthOptions{}

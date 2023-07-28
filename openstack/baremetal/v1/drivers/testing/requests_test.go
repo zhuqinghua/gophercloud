@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/baremetal/v1/drivers"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/baremetal/v1/drivers"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 func TestListDrivers(t *testing.T) {

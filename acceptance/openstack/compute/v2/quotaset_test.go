@@ -1,3 +1,4 @@
+//go:build acceptance || compute || quotasets
 // +build acceptance compute quotasets
 
 package v2
@@ -6,12 +7,11 @@ import (
 	"fmt"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/quotasets"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v2/tenants"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/quotasets"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tenants"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 	"os"
 )
 

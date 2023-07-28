@@ -2,8 +2,6 @@ package images
 
 import (
 	"strings"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // `listURL` is a pure function. `listURL(c)` is a URL for which a GET

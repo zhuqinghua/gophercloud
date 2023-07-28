@@ -5,8 +5,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // UpdateResult is returned from a call to the Update function.

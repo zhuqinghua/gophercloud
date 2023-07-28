@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package v1
@@ -5,8 +6,8 @@ package v1
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/orchestration/v1/buildinfo"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack/orchestration/v1/buildinfo"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestBuildInfo(t *testing.T) {

@@ -1,10 +1,11 @@
+//go:build acceptance || db
 // +build acceptance db
 
 package v1
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/flavors"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/flavors"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 func (c context) listFlavors() {

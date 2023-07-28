@@ -3,8 +3,6 @@ package pagination
 import (
 	"fmt"
 	"reflect"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // LinkedPageBase may be embedded to implement a page that provides navigational "Next" and "Previous" links within its result.

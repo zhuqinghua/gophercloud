@@ -1,10 +1,9 @@
 package instances
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	db "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/databases"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/users"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	db "github.com/zhuqinghua/gophercloud.git/openstack/db/v1/databases"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/users"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // CreateOptsBuilder is the top-level interface for create options.

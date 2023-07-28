@@ -1,3 +1,4 @@
+//go:build acceptance || networking
 // +build acceptance networking
 
 package portsbinding
@@ -5,11 +6,11 @@ package portsbinding
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	networking "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/networking/v2"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/portsbinding"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	networking "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/portsbinding"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
 )
 
 func TestPortsbindingCRUD(t *testing.T) {

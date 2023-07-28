@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/baremetal/v1/drivers"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/baremetal/v1/drivers"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 // ListDriversBody contains the canned body of a drivers.ListDrivers response, without details.

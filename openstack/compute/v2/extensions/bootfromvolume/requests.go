@@ -1,8 +1,7 @@
 package bootfromvolume
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/servers"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
 )
 
 type (

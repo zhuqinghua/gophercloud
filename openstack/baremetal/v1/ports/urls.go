@@ -1,7 +1,5 @@
 package ports
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 func createURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("ports")
 }

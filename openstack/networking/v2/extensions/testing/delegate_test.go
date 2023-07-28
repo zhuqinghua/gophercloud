@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	common "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/common/extensions"
-	fake "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/common"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	common "github.com/zhuqinghua/gophercloud.git/openstack/common/extensions"
+	fake "github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/common"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestList(t *testing.T) {

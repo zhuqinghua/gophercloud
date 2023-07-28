@@ -5,8 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 type commonResult struct {

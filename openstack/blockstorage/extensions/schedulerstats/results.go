@@ -6,7 +6,7 @@ import (
 	"math"
 	"strconv"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Capabilities represents the information of an individual StoragePool.

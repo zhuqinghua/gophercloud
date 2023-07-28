@@ -2,8 +2,8 @@ package testing
 
 import (
 	"fmt"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	fake "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	fake "github.com/zhuqinghua/gophercloud.git/testhelper/client"
 	"net/http"
 	"testing"
 )

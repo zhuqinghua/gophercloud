@@ -2,8 +2,6 @@ package stacktemplates
 
 import (
 	"encoding/json"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // GetResult represents the result of a Get operation.

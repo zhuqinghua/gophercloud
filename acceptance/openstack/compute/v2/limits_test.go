@@ -1,3 +1,4 @@
+//go:build acceptance || compute || limits
 // +build acceptance compute limits
 
 package v2
@@ -6,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/limits"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/limits"
 )
 
 func TestLimits(t *testing.T) {

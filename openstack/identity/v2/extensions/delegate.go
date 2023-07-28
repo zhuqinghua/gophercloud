@@ -1,9 +1,8 @@
 package extensions
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	common "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/common/extensions"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	common "github.com/zhuqinghua/gophercloud.git/openstack/common/extensions"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ExtensionPage is a single page of Extension results.

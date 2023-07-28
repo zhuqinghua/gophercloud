@@ -1,8 +1,7 @@
 package monitors
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Monitor represents a load balancer health monitor. A health monitor is used

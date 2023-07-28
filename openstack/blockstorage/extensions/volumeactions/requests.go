@@ -1,9 +1,5 @@
 package volumeactions
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // AttachOptsBuilder allows extensions to add additional parameters to the
 // Attach request.
 type AttachOptsBuilder interface {

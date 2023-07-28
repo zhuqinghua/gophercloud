@@ -1,8 +1,7 @@
 package tenantnetworks
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of Network.

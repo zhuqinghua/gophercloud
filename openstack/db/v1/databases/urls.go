@@ -1,7 +1,5 @@
 package databases
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 func baseURL(c *gophercloud.ServiceClient, instanceID string) string {
 	return c.ServiceURL("instances", instanceID, "databases")
 }

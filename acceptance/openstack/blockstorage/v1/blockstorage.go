@@ -6,11 +6,10 @@ package v1
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/blockstorage/v1/snapshots"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/blockstorage/v1/volumes"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/blockstorage/v1/volumetypes"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v1/snapshots"
+	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v1/volumes"
+	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v1/volumetypes"
 )
 
 // CreateSnapshot will create a volume snapshot based off of a given volume and

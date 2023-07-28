@@ -1,7 +1,5 @@
 package vips
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	rootPath     = "lb"
 	resourcePath = "vips"

@@ -1,9 +1,5 @@
 package limits
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // Limits is a struct that contains the response of a limit query.
 type Limits struct {
 	// Absolute contains the limits and usage information.

@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

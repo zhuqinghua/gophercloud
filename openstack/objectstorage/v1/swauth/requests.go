@@ -1,7 +1,5 @@
 package swauth
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // AuthOptsBuilder describes struct types that can be accepted by the Auth call.
 // The AuthOpts struct in this package does.
 type AuthOptsBuilder interface {

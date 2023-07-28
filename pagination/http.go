@@ -6,8 +6,6 @@ import (
 	"net/http"
 	"net/url"
 	"strings"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // PageResult stores the HTTP response that returned the current page of results.

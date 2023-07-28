@@ -7,10 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	tokens2 "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v2/tokens"
-	tokens3 "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v3/tokens"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/utils"
+	tokens2 "github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tokens"
+	tokens3 "github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/tokens"
+	"github.com/zhuqinghua/gophercloud.git/openstack/utils"
 )
 
 const (

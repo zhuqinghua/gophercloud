@@ -1,3 +1,4 @@
+//go:build acceptance || networking || lbaas_v2 || listeners
 // +build acceptance networking lbaas_v2 listeners
 
 package lbaas_v2
@@ -5,9 +6,9 @@ package lbaas_v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
 )
 
 func TestListenersList(t *testing.T) {

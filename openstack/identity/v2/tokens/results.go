@@ -3,8 +3,7 @@ package tokens
 import (
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v2/tenants"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tenants"
 )
 
 // Token provides only the most basic information related to an authentication token.

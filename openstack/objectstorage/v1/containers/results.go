@@ -7,8 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Container represents a container resource.
@@ -29,7 +28,7 @@ type ContainerPage struct {
 	pagination.MarkerPageBase
 }
 
-//IsEmpty returns true if a ListResult contains no container names.
+// IsEmpty returns true if a ListResult contains no container names.
 func (r ContainerPage) IsEmpty() (bool, error) {
 	names, err := ExtractNames(r)
 	return len(names) == 0, err

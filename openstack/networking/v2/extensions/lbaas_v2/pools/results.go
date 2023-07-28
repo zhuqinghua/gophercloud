@@ -1,9 +1,8 @@
 package pools
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // SessionPersistence represents the session persistence feature of the load

@@ -1,7 +1,5 @@
 package base
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // Get retrieves the home document, allowing the user to discover the
 // entire API.
 func Get(c *gophercloud.ServiceClient) (r GetResult) {

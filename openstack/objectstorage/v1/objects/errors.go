@@ -1,7 +1,5 @@
 package objects
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // ErrWrongChecksum is the error when the checksum generated for an object
 // doesn't match the ETAG header.
 type ErrWrongChecksum struct {

@@ -1,9 +1,8 @@
 package groups
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/security/rules"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/security/rules"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // SecGroup represents a container for security group rules.

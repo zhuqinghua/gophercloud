@@ -1,7 +1,5 @@
 package volumeactions
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // AttachResult contains the response body and error from a Get request.
 type AttachResult struct {
 	gophercloud.ErrResult

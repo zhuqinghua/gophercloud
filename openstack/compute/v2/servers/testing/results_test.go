@@ -6,10 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/servers"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 	"golang.org/x/crypto/ssh"
 )
 

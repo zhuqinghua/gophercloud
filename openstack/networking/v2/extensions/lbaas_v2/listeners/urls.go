@@ -1,7 +1,5 @@
 package listeners
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	rootPath     = "lbaas"
 	resourcePath = "listeners"

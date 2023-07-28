@@ -1,7 +1,5 @@
 package base
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // HomeDocument is a resource that contains all the resources for the CDN API.
 type HomeDocument map[string]interface{}
 

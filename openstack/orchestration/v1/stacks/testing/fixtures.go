@@ -6,10 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/orchestration/v1/stacks"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	fake "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/orchestration/v1/stacks"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	fake "github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 var Create_time, _ = time.Parse(time.RFC3339, "2018-06-26T07:58:17Z")

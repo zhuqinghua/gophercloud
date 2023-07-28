@@ -3,8 +3,6 @@ package pagination
 import (
 	"fmt"
 	"reflect"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // MarkerPage is a stricter Page interface that describes additional functionality required for use with NewMarkerPager.

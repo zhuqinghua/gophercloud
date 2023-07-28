@@ -1,8 +1,7 @@
 package datastores
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Version represents a version API resource. Multiple versions belong to a Datastore.

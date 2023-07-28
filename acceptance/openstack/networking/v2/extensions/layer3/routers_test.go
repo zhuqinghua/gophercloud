@@ -1,3 +1,4 @@
+//go:build acceptance || networking || layer3 || router
 // +build acceptance networking layer3 router
 
 package layer3
@@ -5,10 +6,10 @@ package layer3
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	networking "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/networking/v2"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	networking "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/layer3/routers"
 )
 
 func TestLayer3RouterList(t *testing.T) {
@@ -76,7 +77,7 @@ func TestLayer3RouterInterface(t *testing.T) {
 		t.Fatalf("Unable to get choices: %v", err)
 	}
 
-	netid, err := networks.IDFromName(client,chocices.NetworkName)
+	netid, err := networks.IDFromName(client, chocices.NetworkName)
 	if err != nil {
 		t.Fatalf("Unable to find network id: %v", err)
 	}

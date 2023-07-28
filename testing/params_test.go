@@ -5,8 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestMaybeString(t *testing.T) {

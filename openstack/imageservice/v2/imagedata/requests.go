@@ -3,8 +3,6 @@ package imagedata
 import (
 	"io"
 	"net/http"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // Upload uploads image file

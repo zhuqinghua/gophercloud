@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 type Topology struct {

@@ -8,22 +8,21 @@ import (
 	"fmt"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/blockstorage/v1/volumes"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/bootfromvolume"
-	dsr "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/defsecrules"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/floatingips"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/keypairs"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/networks"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/quotasets"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/schedulerhints"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/secgroups"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/servergroups"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/tenantnetworks"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/volumeattach"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/servers"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v1/volumes"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/bootfromvolume"
+	dsr "github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/defsecrules"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/floatingips"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/keypairs"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/networks"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/quotasets"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/schedulerhints"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/secgroups"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/servergroups"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/tenantnetworks"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/volumeattach"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
 
 	"golang.org/x/crypto/ssh"
 )
@@ -748,7 +747,7 @@ func WaitForComputeStatus(client *gophercloud.ServiceClient, server *servers.Ser
 	})
 }
 
-//Convenience method to fill an QuotaSet-UpdateOpts-struct from a QuotaSet-struct
+// Convenience method to fill an QuotaSet-UpdateOpts-struct from a QuotaSet-struct
 func FillUpdateOptsFromQuotaSet(src quotasets.QuotaSet, dest *quotasets.UpdateOpts) {
 	dest.FixedIps = &src.FixedIps
 	dest.FloatingIps = &src.FloatingIps

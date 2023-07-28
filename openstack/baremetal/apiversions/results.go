@@ -1,9 +1,5 @@
 package apiversions
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // APIVersions represents the result from getting a list of all versions available
 type APIVersions struct {
 	DefaultVersion APIVersion   `json:"default_version"`

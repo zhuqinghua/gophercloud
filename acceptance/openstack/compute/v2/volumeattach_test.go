@@ -1,3 +1,4 @@
+//go:build acceptance || compute || volumeattach
 // +build acceptance compute volumeattach
 
 package v2
@@ -5,10 +6,9 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/blockstorage/v1/volumes"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v1/volumes"
 )
 
 func TestVolumeAttachAttachment(t *testing.T) {

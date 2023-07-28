@@ -4,10 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/datastores"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/users"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/datastores"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/users"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Volume represents information about an attached volume for a database instance.

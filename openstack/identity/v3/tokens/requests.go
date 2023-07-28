@@ -1,7 +1,5 @@
 package tokens
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // Scope allows a created token to be limited to a specific domain or project.
 type Scope struct {
 	ProjectID   string `json:"scope.project.id,omitempty" not:"ProjectName,DomainID,DomainName"`

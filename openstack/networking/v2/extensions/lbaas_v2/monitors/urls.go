@@ -1,7 +1,5 @@
 package monitors
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	rootPath     = "lbaas"
 	resourcePath = "healthmonitors"

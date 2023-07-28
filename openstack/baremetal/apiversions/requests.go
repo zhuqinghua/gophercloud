@@ -1,9 +1,5 @@
 package apiversions
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // List lists all the API versions available to end users.
 func List(client *gophercloud.ServiceClient) (r ListResult) {
 	_, r.Err = client.Get(listURL(client), &r.Body, nil)

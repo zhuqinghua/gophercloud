@@ -1,8 +1,7 @@
 package testing
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func createClient() *gophercloud.ServiceClient {

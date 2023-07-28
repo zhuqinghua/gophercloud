@@ -1,8 +1,7 @@
 package roles
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 func List(client *gophercloud.ServiceClient) pagination.Pager {

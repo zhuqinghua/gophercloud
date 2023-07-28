@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"reflect"
 	"strings"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // Template is a structure that represents OpenStack Heat templates

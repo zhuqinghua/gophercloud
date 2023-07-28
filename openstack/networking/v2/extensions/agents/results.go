@@ -1,6 +1,6 @@
 package agents
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+import "github.com/zhuqinghua/gophercloud.git/pagination"
 
 type Agent struct {
 	AdminStateUp     bool   `json:"admin_state_up"`

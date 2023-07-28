@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/volumeattach"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/volumeattach"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 // FirstVolumeAttachment is the first result in ListOutput.
@@ -29,7 +29,7 @@ var SecondVolumeAttachment = volumeattach.VolumeAttachment{
 // from ListOutput, in the expected order.
 var ExpectedVolumeAttachmentSlice = []volumeattach.VolumeAttachment{FirstVolumeAttachment, SecondVolumeAttachment}
 
-//CreatedVolumeAttachment is the parsed result from CreatedOutput.
+// CreatedVolumeAttachment is the parsed result from CreatedOutput.
 var CreatedVolumeAttachment = volumeattach.VolumeAttachment{
 	Device:   "/dev/vdc",
 	ID:       "a26887c6-c47b-4654-abb5-dfadf7d3f804",

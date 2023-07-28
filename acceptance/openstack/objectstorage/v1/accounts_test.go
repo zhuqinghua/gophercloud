@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package v1
@@ -6,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/objectstorage/v1/accounts"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack/objectstorage/v1/accounts"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestAccounts(t *testing.T) {

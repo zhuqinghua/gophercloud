@@ -1,8 +1,7 @@
 package rules
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // SecGroupRule represents a rule to dictate the behaviour of incoming or

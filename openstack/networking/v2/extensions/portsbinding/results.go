@@ -1,10 +1,8 @@
 package portsbinding
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/ports"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 type commonResult struct {

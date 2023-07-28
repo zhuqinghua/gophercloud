@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	fake "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	fake "github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 // HandleListCDNServiceSuccessfully creates an HTTP handler at `/services` on the test handler mux

@@ -1,3 +1,4 @@
+//go:build acceptance || networking || lbaas_v2 || loadbalancers
 // +build acceptance networking lbaas_v2 loadbalancers
 
 package lbaas_v2
@@ -5,13 +6,13 @@ package lbaas_v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	networking "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/networking/v2"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	networking "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
 )
 
 func TestLoadbalancersList(t *testing.T) {

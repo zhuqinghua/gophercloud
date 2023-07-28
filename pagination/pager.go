@@ -6,8 +6,6 @@ import (
 	"net/http"
 	"reflect"
 	"strings"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 var (

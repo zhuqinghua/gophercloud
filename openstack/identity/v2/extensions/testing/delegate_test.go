@@ -3,11 +3,11 @@ package testing
 import (
 	"testing"
 
-	common "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/common/extensions/testing"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v2/extensions"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	common "github.com/zhuqinghua/gophercloud.git/openstack/common/extensions/testing"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/extensions"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 func TestList(t *testing.T) {

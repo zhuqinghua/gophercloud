@@ -10,9 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/objectstorage/v1/accounts"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/objectstorage/v1/accounts"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the List

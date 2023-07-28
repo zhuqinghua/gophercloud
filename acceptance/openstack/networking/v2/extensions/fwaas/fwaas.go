@@ -5,12 +5,11 @@ import (
 	"strconv"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/fwaas/firewalls"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/fwaas/policies"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/fwaas/routerinsertion"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/firewalls"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/routerinsertion"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/rules"
 )
 
 // CreateFirewall will create a Firewaill with a random name and a specified

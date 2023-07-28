@@ -1,6 +1,6 @@
 package agents
 
-import gophercloud "gerrit.mcp.mirantis.net/debian/gophercloud.git"
+import gophercloud "github.com/zhuqinghua/gophercloud.git"
 
 func listURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("agents")

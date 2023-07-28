@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/objectstorage/v1/swauth"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack"
+	"github.com/zhuqinghua/gophercloud.git/openstack/objectstorage/v1/swauth"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestAuth(t *testing.T) {

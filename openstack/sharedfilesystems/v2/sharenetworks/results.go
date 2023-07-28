@@ -6,8 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ShareNetwork contains all the information associated with an OpenStack

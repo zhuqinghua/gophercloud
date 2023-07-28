@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v3/extensions/trusts"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v3/tokens"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/extensions/trusts"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/tokens"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 func TestCreateUserIDPasswordTrustID(t *testing.T) {

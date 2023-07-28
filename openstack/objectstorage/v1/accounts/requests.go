@@ -1,7 +1,5 @@
 package accounts
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // GetOptsBuilder allows extensions to add additional headers to the Get
 // request.
 type GetOptsBuilder interface {

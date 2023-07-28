@@ -5,10 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/datastores"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/instances"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/fixture"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/datastores"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/instances"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/fixture"
 )
 
 var (

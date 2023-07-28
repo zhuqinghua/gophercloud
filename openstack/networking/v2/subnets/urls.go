@@ -1,7 +1,5 @@
 package subnets
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 func resourceURL(c *gophercloud.ServiceClient, id string) string {
 	return c.ServiceURL("subnets", id)
 }

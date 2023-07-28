@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	az "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/availabilityzones"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	az "github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/availabilityzones"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 // Verifies that availability zones can be listed correctly

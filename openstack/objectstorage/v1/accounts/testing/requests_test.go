@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/objectstorage/v1/accounts"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	fake "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/objectstorage/v1/accounts"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	fake "github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 var (

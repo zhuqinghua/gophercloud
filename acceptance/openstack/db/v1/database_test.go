@@ -1,10 +1,11 @@
+//go:build acceptance || db
 // +build acceptance db
 
 package v1
 
 import (
-	db "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/databases"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	db "github.com/zhuqinghua/gophercloud.git/openstack/db/v1/databases"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 func (c context) createDBs() {

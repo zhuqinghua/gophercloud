@@ -1,7 +1,5 @@
 package routers
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "routers"
 
 func rootURL(c *gophercloud.ServiceClient) string {

@@ -3,8 +3,7 @@ package stacks
 import (
 	"strings"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // CreateOptsBuilder is the interface options structs have to satisfy in order
@@ -353,7 +352,8 @@ func toStackUpdateMap(opts UpdateOpts) (map[string]interface{}, error) {
 }
 
 // Update accepts an UpdateOpts struct and updates an existing stack using the
-//  http PUT verb with the values provided. opts.TemplateOpts is required.
+//
+//	http PUT verb with the values provided. opts.TemplateOpts is required.
 func Update(c *gophercloud.ServiceClient, stackName, stackID string, opts UpdateOptsBuilder) (r UpdateResult) {
 	b, err := opts.ToStackUpdateMap()
 	if err != nil {
@@ -365,7 +365,8 @@ func Update(c *gophercloud.ServiceClient, stackName, stackID string, opts Update
 }
 
 // Update accepts an UpdateOpts struct and updates an existing stack using the
-//  http PATCH verb with the values provided. opts.TemplateOpts is not required.
+//
+//	http PATCH verb with the values provided. opts.TemplateOpts is not required.
 func UpdatePatch(c *gophercloud.ServiceClient, stackName, stackID string, opts UpdatePatchOptsBuilder) (r UpdateResult) {
 	b, err := opts.ToStackUpdatePatchMap()
 	if err != nil {

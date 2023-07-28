@@ -1,3 +1,4 @@
+//go:build acceptance || networking || fwaas
 // +build acceptance networking fwaas
 
 package fwaas
@@ -5,9 +6,9 @@ package fwaas
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/rules"
 )
 
 func TestRuleList(t *testing.T) {

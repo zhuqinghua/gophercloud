@@ -1,6 +1,6 @@
 package roles
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+import "github.com/zhuqinghua/gophercloud.git/pagination"
 
 // RoleAssignment is the result of a role assignments query.
 type RoleAssignment struct {

@@ -1,3 +1,4 @@
+//go:build acceptance || networking || lbaas || member
 // +build acceptance networking lbaas member
 
 package lbaas
@@ -5,11 +6,10 @@ package lbaas
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	networking "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/networking/v2"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/lbaas/members"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	networking "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas/members"
 )
 
 func TestMembersList(t *testing.T) {

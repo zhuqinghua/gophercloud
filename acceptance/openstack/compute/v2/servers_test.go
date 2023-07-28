@@ -1,3 +1,4 @@
+//go:build acceptance || compute || servers
 // +build acceptance compute servers
 
 package v2
@@ -6,12 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/availabilityzones"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/servers"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/availabilityzones"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestServersList(t *testing.T) {

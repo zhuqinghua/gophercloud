@@ -2,8 +2,6 @@ package serviceassets
 
 import (
 	"strings"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // DeleteOptsBuilder allows extensions to add additional parameters to the Delete

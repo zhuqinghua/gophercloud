@@ -8,8 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestWaitFor(t *testing.T) {

@@ -1,9 +1,8 @@
 package configurations
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/instances"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/instances"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // List will list all of the available configurations.

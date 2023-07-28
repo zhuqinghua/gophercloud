@@ -1,8 +1,7 @@
 package external
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
 )
 
 // CreateOpts is the structure used when creating new external network

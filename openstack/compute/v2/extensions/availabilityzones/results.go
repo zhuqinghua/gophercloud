@@ -4,8 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ServerAvailabilityZoneExt is an extension to the base Server object.

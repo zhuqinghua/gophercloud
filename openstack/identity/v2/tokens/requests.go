@@ -1,7 +1,5 @@
 package tokens
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 type PasswordCredentialsV2 struct {
 	Username string `json:"username" required:"true"`
 	Password string `json:"password" required:"true"`

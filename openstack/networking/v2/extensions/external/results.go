@@ -1,8 +1,8 @@
 package external
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/networks"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // NetworkExternal represents a decorated form of a Network with based on the

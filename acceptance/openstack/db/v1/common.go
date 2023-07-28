@@ -1,3 +1,4 @@
+//go:build acceptance || db
 // +build acceptance db
 
 package v1
@@ -6,10 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/instances"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/instances"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func newClient(t *testing.T) *gophercloud.ServiceClient {

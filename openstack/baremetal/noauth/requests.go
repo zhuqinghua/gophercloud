@@ -2,8 +2,6 @@ package noauth
 
 import (
 	"fmt"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // EndpointOpts specifies a "noauth" Ironic Endpoint.

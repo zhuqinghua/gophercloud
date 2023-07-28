@@ -1,9 +1,5 @@
 package limits
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // GetOptsBuilder allows extensions to add additional parameters to the
 // Get request.
 type GetOptsBuilder interface {

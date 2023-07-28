@@ -1,7 +1,5 @@
 package tenantnetworks
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "os-tenant-networks"
 
 func resourceURL(c *gophercloud.ServiceClient) string {

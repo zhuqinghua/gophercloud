@@ -3,7 +3,7 @@ package testing
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/fixture"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/fixture"
 )
 
 var (

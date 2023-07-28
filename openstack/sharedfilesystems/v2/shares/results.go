@@ -3,8 +3,6 @@ package shares
 import (
 	"encoding/json"
 	"time"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // Share contains all information associated with an OpenStack Share

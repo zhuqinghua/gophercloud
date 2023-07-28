@@ -1,7 +1,5 @@
 package extensions
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // ExtensionURL generates the URL for an extension resource by name.
 func ExtensionURL(c *gophercloud.ServiceClient, name string) string {
 	return c.ServiceURL("extensions", name)

@@ -1,7 +1,5 @@
 package stackresources
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 func findURL(c *gophercloud.ServiceClient, stackName string) string {
 	return c.ServiceURL("stacks", stackName, "resources")
 }

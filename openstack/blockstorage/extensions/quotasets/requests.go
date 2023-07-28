@@ -2,8 +2,6 @@ package quotasets
 
 import (
 	"fmt"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // Get returns public data about a previously created QuotaSet.

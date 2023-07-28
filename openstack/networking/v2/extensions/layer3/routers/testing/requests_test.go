@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	fake "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/common"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/layer3/routers"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	fake "github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/common"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestList(t *testing.T) {

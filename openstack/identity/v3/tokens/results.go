@@ -2,8 +2,6 @@ package tokens
 
 import (
 	"time"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // Endpoint represents a single API endpoint offered by a service.

@@ -1,8 +1,7 @@
 package nodes
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 type nodeResult struct {
@@ -291,8 +290,8 @@ type DriverValidation struct {
 	Reason string `json:"reason"`
 }
 
-//  Ironic validates whether the Node’s driver has enough information to manage the Node. This polls each interface on
-//  the driver, and returns the status of that interface as an DriverValidation struct.
+// Ironic validates whether the Node’s driver has enough information to manage the Node. This polls each interface on
+// the driver, and returns the status of that interface as an DriverValidation struct.
 type NodeValidation struct {
 	Boot       DriverValidation `json:"boot"`
 	Console    DriverValidation `json:"console"`

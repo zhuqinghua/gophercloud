@@ -1,7 +1,5 @@
 package servers
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // WaitForStatus will continually poll a server until it successfully transitions to a specified
 // status. It will do this for at most the number of seconds specified.
 func WaitForStatus(c *gophercloud.ServiceClient, id, status string, secs int) error {

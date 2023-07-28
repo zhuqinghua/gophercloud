@@ -1,9 +1,5 @@
 package swauth
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // GetAuthResult temporarily contains the response from a Swauth
 // authentication call.
 type GetAuthResult struct {

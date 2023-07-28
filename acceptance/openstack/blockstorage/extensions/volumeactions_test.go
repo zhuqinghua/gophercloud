@@ -1,3 +1,4 @@
+//go:build acceptance || blockstorage
 // +build acceptance blockstorage
 
 package extensions
@@ -5,11 +6,11 @@ package extensions
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/blockstorage/v2/volumes"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v2/volumes"
 
-	blockstorage "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/blockstorage/v2"
-	compute "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/compute/v2"
+	blockstorage "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/blockstorage/v2"
+	compute "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/compute/v2"
 )
 
 func TestVolumeActionsUploadImageDestroy(t *testing.T) {

@@ -1,7 +1,5 @@
 package members
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 func imageMembersURL(c *gophercloud.ServiceClient, imageID string) string {
 	return c.ServiceURL("images", imageID, "members")
 }

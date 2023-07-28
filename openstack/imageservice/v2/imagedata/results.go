@@ -3,8 +3,6 @@ package imagedata
 import (
 	"fmt"
 	"io"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // UploadResult is the result of an upload image operation

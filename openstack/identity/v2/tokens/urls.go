@@ -1,7 +1,5 @@
 package tokens
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 // CreateURL generates the URL used to create new Tokens.
 func CreateURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("tokens")

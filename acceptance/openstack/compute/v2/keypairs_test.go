@@ -1,3 +1,4 @@
+//go:build acceptance || compute || keypairs
 // +build acceptance compute keypairs
 
 package v2
@@ -5,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/keypairs"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/servers"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/keypairs"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
 )
 
 const keyName = "gophercloud_test_key_pair"

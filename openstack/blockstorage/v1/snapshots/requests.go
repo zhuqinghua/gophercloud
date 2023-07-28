@@ -1,8 +1,7 @@
 package snapshots
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // CreateOptsBuilder allows extensions to add additional parameters to the

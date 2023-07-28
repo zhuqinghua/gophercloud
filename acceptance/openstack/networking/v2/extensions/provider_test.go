@@ -1,3 +1,4 @@
+//go:build acceptance || networking || provider
 // +build acceptance networking provider
 
 package extensions
@@ -5,11 +6,11 @@ package extensions
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	networking "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/networking/v2"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/provider"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	networking "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/provider"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
 )
 
 func TestNetworksProviderCRUD(t *testing.T) {

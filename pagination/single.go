@@ -3,8 +3,6 @@ package pagination
 import (
 	"fmt"
 	"reflect"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // SinglePageBase may be embedded in a Page that contains all of the results from an operation at once.

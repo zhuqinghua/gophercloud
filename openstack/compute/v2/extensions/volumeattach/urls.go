@@ -1,7 +1,5 @@
 package volumeattach
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "os-volume_attachments"
 
 func resourceURL(c *gophercloud.ServiceClient, serverID string) string {

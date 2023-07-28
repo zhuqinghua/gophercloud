@@ -1,8 +1,7 @@
 package floatingips
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // FloatingIP represents a floating IP resource. A floating IP is an external

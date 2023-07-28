@@ -1,7 +1,5 @@
 package defsecrules
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const rulepath = "os-security-group-default-rules"
 
 func resourceURL(c *gophercloud.ServiceClient, id string) string {

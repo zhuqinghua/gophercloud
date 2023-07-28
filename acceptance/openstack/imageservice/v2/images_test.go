@@ -1,3 +1,4 @@
+//go:build acceptance || imageservice || images
 // +build acceptance imageservice images
 
 package v2
@@ -5,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/imageservice/v2/images"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/imageservice/v2/images"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 func TestImagesListEachPage(t *testing.T) {

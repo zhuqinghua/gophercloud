@@ -1,7 +1,5 @@
 package users
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	tenantPath = "tenants"
 	userPath   = "users"

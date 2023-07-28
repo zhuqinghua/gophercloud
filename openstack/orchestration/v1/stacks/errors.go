@@ -2,8 +2,6 @@ package stacks
 
 import (
 	"fmt"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 type ErrInvalidEnvironment struct {

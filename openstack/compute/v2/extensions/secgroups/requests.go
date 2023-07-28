@@ -1,8 +1,7 @@
 package secgroups
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 func commonList(client *gophercloud.ServiceClient, url string) pagination.Pager {

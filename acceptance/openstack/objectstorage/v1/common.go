@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package v1
@@ -6,9 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 var metadata = map[string]string{"gopher": "cloud"}

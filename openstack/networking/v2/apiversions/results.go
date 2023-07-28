@@ -1,7 +1,7 @@
 package apiversions
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // APIVersion represents an API version for Neutron. It contains the status of

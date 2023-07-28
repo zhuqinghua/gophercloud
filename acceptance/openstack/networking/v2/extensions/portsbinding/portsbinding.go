@@ -3,10 +3,9 @@ package portsbinding
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/portsbinding"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/portsbinding"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
 )
 
 // CreatePortsbinding will create a port on the specified subnet. An error will be

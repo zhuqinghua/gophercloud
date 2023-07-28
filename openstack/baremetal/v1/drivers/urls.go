@@ -1,7 +1,5 @@
 package drivers
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 func driversURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("drivers")
 }

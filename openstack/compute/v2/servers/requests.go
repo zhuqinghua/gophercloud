@@ -4,10 +4,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/flavors"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/images"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/flavors"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/images"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

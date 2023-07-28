@@ -1,10 +1,10 @@
 package testing
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/hypervisors"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/hypervisors"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 	"testing"
 )
 

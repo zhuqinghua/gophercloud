@@ -4,8 +4,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // SecurityGroup represents a security group.

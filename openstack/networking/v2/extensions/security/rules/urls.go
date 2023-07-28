@@ -1,7 +1,5 @@
 package rules
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const rootPath = "security-group-rules"
 
 func rootURL(c *gophercloud.ServiceClient) string {

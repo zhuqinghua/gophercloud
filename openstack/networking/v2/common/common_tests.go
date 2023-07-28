@@ -1,8 +1,7 @@
 package common
 
 import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
 )
 
 const TokenID = client.TokenID

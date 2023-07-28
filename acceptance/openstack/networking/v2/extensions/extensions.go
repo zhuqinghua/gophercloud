@@ -3,13 +3,12 @@ package extensions
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/external"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/security/groups"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/extensions/security/rules"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/networks"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/external"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/security/groups"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/security/rules"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
 )
 
 // CreateExternalNetwork will create an external network. An error will be

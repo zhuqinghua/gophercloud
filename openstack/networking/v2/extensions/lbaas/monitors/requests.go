@@ -3,8 +3,7 @@ package monitors
 import (
 	"fmt"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ListOpts allows the filtering and sorting of paginated collections through
@@ -128,8 +127,8 @@ func (opts CreateOpts) ToLBMonitorCreateMap() (map[string]interface{}, error) {
 // Here is an example config struct to use when creating a HTTP(S) monitor:
 //
 // CreateOpts{Type: TypeHTTP, Delay: 20, Timeout: 10, MaxRetries: 3,
-//  HttpMethod: "HEAD", ExpectedCodes: "200"}
 //
+//	HttpMethod: "HEAD", ExpectedCodes: "200"}
 func Create(c *gophercloud.ServiceClient, opts CreateOptsBuilder) (r CreateResult) {
 	b, err := opts.ToLBMonitorCreateMap()
 	if err != nil {

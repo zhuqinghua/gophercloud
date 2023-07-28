@@ -8,8 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack"
+	"github.com/zhuqinghua/gophercloud.git/openstack"
 )
 
 // AcceptanceTestChoices contains image and flavor selections for use by the acceptance tests.

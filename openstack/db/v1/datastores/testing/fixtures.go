@@ -3,8 +3,7 @@ package testing
 import (
 	"fmt"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/db/v1/datastores"
+	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/datastores"
 )
 
 const version1JSON = `

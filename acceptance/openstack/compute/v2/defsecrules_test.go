@@ -1,3 +1,4 @@
+//go:build acceptance || compute || defsecrules
 // +build acceptance compute defsecrules
 
 package v2
@@ -5,9 +6,9 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	dsr "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/extensions/defsecrules"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	dsr "github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/defsecrules"
 )
 
 func TestDefSecRulesList(t *testing.T) {

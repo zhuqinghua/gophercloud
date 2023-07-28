@@ -1,7 +1,5 @@
 package firewalls
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const (
 	rootPath     = "fw"
 	resourcePath = "firewalls"

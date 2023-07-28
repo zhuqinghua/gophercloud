@@ -1,8 +1,8 @@
 package snapshots
 
 import (
-	gophercloud "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	gophercloud "github.com/zhuqinghua/gophercloud.git"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the List

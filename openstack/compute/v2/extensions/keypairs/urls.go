@@ -1,7 +1,5 @@
 package keypairs
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "os-keypairs"
 
 func resourceURL(c *gophercloud.ServiceClient) string {

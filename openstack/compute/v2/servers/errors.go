@@ -2,8 +2,6 @@ package servers
 
 import (
 	"fmt"
-
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
 )
 
 // ErrNeitherImageIDNorImageNameProvided is the error when neither the image

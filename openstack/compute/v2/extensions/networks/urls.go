@@ -1,7 +1,5 @@
 package networks
 
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-
 const resourcePath = "os-networks"
 
 func resourceURL(c *gophercloud.ServiceClient) string {

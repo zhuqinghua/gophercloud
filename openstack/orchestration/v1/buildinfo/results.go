@@ -1,9 +1,5 @@
 package buildinfo
 
-import (
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-)
-
 // Revision represents the API/Engine revision of a Heat deployment.
 type Revision struct {
 	Revision string `json:"revision"`

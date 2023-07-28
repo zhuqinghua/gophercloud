@@ -5,9 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/utils"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack/utils"
+	"github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func setupVersionHandler() {

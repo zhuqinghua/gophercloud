@@ -6,7 +6,7 @@ Gophercloud is an OpenStack Go SDK.
 
 ## Useful links
 
-* [Reference documentation](http://godoc.org/gerrit.mcp.mirantis.net/debian/gophercloud.git)
+* [Reference documentation](http://godoc.org/github.com/zhuqinghua/gophercloud.git)
 * [Effective Go](https://golang.org/doc/effective_go.html)
 
 ## How to install
@@ -25,9 +25,9 @@ your projects, such as [godep](https://github.com/tools/godep). Once this is set
 Gophercloud as a dependency like so:
 
 ```bash
-go get gerrit.mcp.mirantis.net/debian/gophercloud.git
+go get github.com/zhuqinghua/gophercloud.git
 
-# Edit your code to import relevant packages from "gerrit.mcp.mirantis.net/debian/gophercloud.git"
+# Edit your code to import relevant packages from "github.com/zhuqinghua/gophercloud.git"
 
 godep save ./...
 ```
@@ -67,9 +67,9 @@ explicitly, or tell Gophercloud to use environment variables:
 
 ```go
 import (
-  "gerrit.mcp.mirantis.net/debian/gophercloud.git"
-  "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack"
-  "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/utils"
+  "github.com/zhuqinghua/gophercloud.git"
+  "github.com/zhuqinghua/gophercloud.git/openstack"
+  "github.com/zhuqinghua/gophercloud.git/openstack/utils"
 )
 
 // Option 1: Pass in the values yourself
@@ -112,7 +112,7 @@ in the flavor ID (hardware specification) and image ID (operating system) we're
 interested in:
 
 ```go
-import "gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/compute/v2/servers"
+import "github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
 
 server, err := servers.Create(client, servers.CreateOpts{
   Name:      "My new server!",
@@ -123,7 +123,7 @@ server, err := servers.Create(client, servers.CreateOpts{
 
 The above code sample creates a new server with the parameters, and embodies the
 new resource in the `server` variable (a
-[`servers.Server`](http://godoc.org/gerrit.mcp.mirantis.net/debian/gophercloud.git) struct).
+[`servers.Server`](http://godoc.org/github.com/zhuqinghua/gophercloud.git) struct).
 
 ## Advanced Usage
 

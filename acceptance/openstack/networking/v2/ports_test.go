@@ -1,3 +1,4 @@
+//go:build acceptance || networking
 // +build acceptance networking
 
 package v2
@@ -5,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	extensions "gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/openstack/networking/v2/extensions"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	extensions "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2/extensions"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
 )
 
 func TestPortsList(t *testing.T) {

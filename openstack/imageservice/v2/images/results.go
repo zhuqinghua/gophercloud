@@ -6,9 +6,8 @@ import (
 	"reflect"
 	"time"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/internal"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud.git/internal"
+	"github.com/zhuqinghua/gophercloud.git/pagination"
 )
 
 // Image model

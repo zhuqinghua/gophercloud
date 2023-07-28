@@ -1,3 +1,4 @@
+//go:build acceptance || identity || roles
 // +build acceptance identity roles
 
 package v2
@@ -5,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/clients"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/acceptance/tools"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v2/extensions/admin/roles"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/identity/v2/users"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/extensions/admin/roles"
+	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/users"
 )
 
 func TestRolesAddToUser(t *testing.T) {

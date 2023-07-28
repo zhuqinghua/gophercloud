@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package v1
@@ -5,10 +6,9 @@ package v1
 import (
 	"testing"
 
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/orchestration/v1/stacks"
-	"gerrit.mcp.mirantis.net/debian/gophercloud.git/openstack/orchestration/v1/stacktemplates"
-	th "gerrit.mcp.mirantis.net/debian/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud.git/openstack/orchestration/v1/stacks"
+	"github.com/zhuqinghua/gophercloud.git/openstack/orchestration/v1/stacktemplates"
+	th "github.com/zhuqinghua/gophercloud.git/testhelper"
 )
 
 func TestStackTemplates(t *testing.T) {
