@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/common/extensions"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/common/extensions"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 // ListOutput provides a single page of Extension results.

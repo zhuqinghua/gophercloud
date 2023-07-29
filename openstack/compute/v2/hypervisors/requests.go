@@ -1,7 +1,7 @@
 package hypervisors
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List makes a request against the API to list hypervisors.

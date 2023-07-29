@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // NetworkExtAttrs represents an extended form of a Network with additional fields.

@@ -6,9 +6,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/dns/v2/zones"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/dns/v2/zones"
 )
 
 func TestZonesList(t *testing.T) {

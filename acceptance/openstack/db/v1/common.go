@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack"
-	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/instances"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/openstack"
+	"github.com/zhuqinghua/gophercloud/openstack/db/v1/instances"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func newClient(t *testing.T) *gophercloud.ServiceClient {

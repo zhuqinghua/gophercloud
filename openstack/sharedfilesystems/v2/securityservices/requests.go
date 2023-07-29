@@ -1,7 +1,7 @@
 package securityservices
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type SecurityServiceType string

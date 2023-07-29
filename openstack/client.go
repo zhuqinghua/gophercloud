@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	tokens2 "github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tokens"
-	tokens3 "github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/tokens"
-	"github.com/zhuqinghua/gophercloud.git/openstack/utils"
+	tokens2 "github.com/zhuqinghua/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/zhuqinghua/gophercloud/openstack/identity/v3/tokens"
+	"github.com/zhuqinghua/gophercloud/openstack/utils"
 )
 
 const (

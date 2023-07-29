@@ -1,7 +1,7 @@
 package flavors
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Provider represents a provider for a particular flavor.

@@ -1,7 +1,7 @@
 package pools
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Pool represents a logical set of devices, such as web servers, that you

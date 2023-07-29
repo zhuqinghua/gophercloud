@@ -1,7 +1,7 @@
 package volumetypes
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // VolumeType contains all information associated with an OpenStack Volume Type.

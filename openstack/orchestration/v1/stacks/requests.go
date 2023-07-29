@@ -3,7 +3,7 @@ package stacks
 import (
 	"strings"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // CreateOptsBuilder is the interface options structs have to satisfy in order

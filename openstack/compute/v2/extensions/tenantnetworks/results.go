@@ -1,7 +1,7 @@
 package tenantnetworks
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // A Network represents a nova-network that an instance communicates on

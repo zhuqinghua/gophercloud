@@ -6,9 +6,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/v2/volumes"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/blockstorage/v2/volumes"
 )
 
 // CreateVolume will create a volume with a random name and size of 1GB. An

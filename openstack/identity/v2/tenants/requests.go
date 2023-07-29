@@ -1,7 +1,7 @@
 package tenants
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // ListOpts filters the Tenants that are returned by the List call.

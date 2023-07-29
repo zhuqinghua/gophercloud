@@ -1,8 +1,8 @@
 package keypairs
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/servers"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // CreateOptsExt adds a KeyPair option to the base CreateOpts.

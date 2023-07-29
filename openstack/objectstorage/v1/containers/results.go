@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Container represents a container resource.

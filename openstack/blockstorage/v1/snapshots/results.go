@@ -1,7 +1,7 @@
 package snapshots
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Snapshot contains all the information associated with an OpenStack Snapshot.

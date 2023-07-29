@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/extensions/admin/roles"
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tenants"
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/users"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v2/extensions/admin/roles"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v2/tenants"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v2/users"
 )
 
 // AddUserRole will grant a role to a user in a tenant. An error will be

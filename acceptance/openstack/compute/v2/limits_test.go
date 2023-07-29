@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/limits"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/extensions/limits"
 )
 
 func TestLimits(t *testing.T) {

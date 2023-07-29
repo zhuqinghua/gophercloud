@@ -1,7 +1,7 @@
 package extensions
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Get retrieves information for a specific extension using its alias.

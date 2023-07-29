@@ -1,7 +1,7 @@
 package bootfromvolume
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/servers"
 )
 
 type (

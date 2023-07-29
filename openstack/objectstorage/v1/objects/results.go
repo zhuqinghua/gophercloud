@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Object is a structure that holds information related to a storage object.

@@ -6,9 +6,9 @@ package fwaas
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
 )
 
 func TestPolicyList(t *testing.T) {

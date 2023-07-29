@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/extensions/schedulerstats"
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/blockstorage/extensions/schedulerstats"
+	"github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 const StoragePoolsListBody = `

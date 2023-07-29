@@ -1,8 +1,8 @@
 package loadbalancers
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // LoadBalancer is the primary load balancing configuration object that specifies

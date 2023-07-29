@@ -1,10 +1,10 @@
 package testing
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/hypervisors"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/hypervisors"
+	"github.com/zhuqinghua/gophercloud/pagination"
+	"github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package roles
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 func List(client *gophercloud.ServiceClient) pagination.Pager {

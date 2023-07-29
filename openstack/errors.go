@@ -3,8 +3,8 @@ package openstack
 import (
 	"fmt"
 
-	tokens2 "github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tokens"
-	tokens3 "github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/tokens"
+	tokens2 "github.com/zhuqinghua/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/zhuqinghua/gophercloud/openstack/identity/v3/tokens"
 )
 
 // ErrEndpointNotFound is the error when no suitable endpoint can be found

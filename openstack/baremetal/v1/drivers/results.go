@@ -1,7 +1,7 @@
 package drivers
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type driverResult struct {

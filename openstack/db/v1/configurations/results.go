@@ -3,7 +3,7 @@ package configurations
 import (
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Config represents a configuration group API resource.

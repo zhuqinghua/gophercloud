@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Domain represents a domain used by users to access their website.

@@ -1,7 +1,7 @@
 package tenants
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Tenant is a grouping of users in the identity service.

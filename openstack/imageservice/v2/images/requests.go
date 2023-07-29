@@ -1,7 +1,7 @@
 package images
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the
@@ -14,7 +14,7 @@ type ListOptsBuilder interface {
 // the API. Filtering is achieved by passing in struct field values that map to
 // the server attributes you want to see returned. Marker and Limit are used
 // for pagination.
-//http://developer.openstack.org/api-ref-image-v2.html
+// http://developer.openstack.org/api-ref-image-v2.html
 type ListOpts struct {
 	// Integer value for the limit of values to return.
 	Limit int `q:"limit"`

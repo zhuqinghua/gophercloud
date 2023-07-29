@@ -1,7 +1,7 @@
 package datastores
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List will list all available datastore types that instances can use.

@@ -6,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack"
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tokens"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v2/tokens"
 )
 
 func TestTokenAuthenticate(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/internal"
+	"github.com/zhuqinghua/gophercloud/internal"
 )
 
 func TestRemainingKeys(t *testing.T) {

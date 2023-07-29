@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/subnets"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/subnets"
 )
 
 // CreateNetwork will create basic network. An error will be returned if the

@@ -39,7 +39,7 @@ echo 'export PATH=$PATH:$HOME/terraform:$HOME/go/bin' >> .bashrc
 source .bashrc
 
 go get golang.org/x/crypto/ssh
-go get github.com/zhuqinghua/gophercloud.git
+go get github.com/zhuqinghua/gophercloud
 
 git clone https://git.openstack.org/openstack-dev/devstack -b stable/mitaka
 cd devstack

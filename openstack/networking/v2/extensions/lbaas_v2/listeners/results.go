@@ -1,8 +1,8 @@
 package listeners
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type LoadBalancerID struct {

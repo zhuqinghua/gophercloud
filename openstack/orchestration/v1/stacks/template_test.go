@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func TestTemplateValidation(t *testing.T) {

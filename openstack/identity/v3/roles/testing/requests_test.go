@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/roles"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v3/roles"
+	"github.com/zhuqinghua/gophercloud/pagination"
+	"github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 func TestListSinglePage(t *testing.T) {

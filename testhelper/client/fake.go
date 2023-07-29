@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 // Fake token to use.

@@ -1,7 +1,7 @@
 package availabilityzones
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List will return the existing availability zones.

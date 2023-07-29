@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/extensions/volumeactions"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/blockstorage/extensions/volumeactions"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 func TestAttach(t *testing.T) {

@@ -1,7 +1,7 @@
 package apiversions
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List lists all the Cinder API versions available to end-users.

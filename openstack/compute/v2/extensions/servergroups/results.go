@@ -1,7 +1,7 @@
 package servergroups
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // A ServerGroup creates a policy for instance placement in the cloud

@@ -1,8 +1,8 @@
 package os_services
 
 import (
-	gophercloud "github.com/zhuqinghua/gophercloud.git"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	gophercloud "github.com/zhuqinghua/gophercloud"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of Network.

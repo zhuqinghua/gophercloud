@@ -1,7 +1,7 @@
 package volumeattach
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // VolumeAttachment controls the attachment of a volume to an instance.

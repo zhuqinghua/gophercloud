@@ -1,7 +1,7 @@
 package pools
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

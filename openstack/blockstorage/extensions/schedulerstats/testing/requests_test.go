@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/blockstorage/extensions/schedulerstats"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/blockstorage/extensions/schedulerstats"
+	"github.com/zhuqinghua/gophercloud/pagination"
+	"github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 func TestListStoragePoolsDetail(t *testing.T) {

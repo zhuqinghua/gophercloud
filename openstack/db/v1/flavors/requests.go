@@ -1,7 +1,7 @@
 package flavors
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List will list all available hardware flavors that an instance can use. The

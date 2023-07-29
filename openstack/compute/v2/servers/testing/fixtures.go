@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/servers"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 // ServerListBody contains the canned body of a servers.List response.

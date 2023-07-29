@@ -5,8 +5,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/imageservice/v2/images"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/imageservice/v2/images"
 )
 
 // CreateEmptyImage will create an image, but with no actual image data.

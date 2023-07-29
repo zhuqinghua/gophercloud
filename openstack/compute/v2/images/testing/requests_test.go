@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/images"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
-	fake "github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/images"
+	"github.com/zhuqinghua/gophercloud/pagination"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
+	fake "github.com/zhuqinghua/gophercloud/testhelper/client"
 )
 
 func TestListImages(t *testing.T) {

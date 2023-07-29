@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Create adds a new service of the requested type to the catalog.

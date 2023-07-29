@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/objectstorage/v1/swauth"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/openstack/objectstorage/v1/swauth"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 // AuthResult is the expected result of AuthOutput

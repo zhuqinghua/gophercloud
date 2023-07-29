@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // GatewayInfo represents the information of an external gateway for any

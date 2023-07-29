@@ -3,8 +3,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/sharedfilesystems/v2/securityservices"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/sharedfilesystems/v2/securityservices"
 )
 
 // CreateSecurityService will create a security service with a random name. An

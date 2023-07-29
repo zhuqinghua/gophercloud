@@ -1,7 +1,7 @@
 package monitors
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Monitor represents a load balancer health monitor. A health monitor is used

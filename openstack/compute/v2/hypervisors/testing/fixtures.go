@@ -2,9 +2,9 @@ package testing
 
 import (
 	"fmt"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/hypervisors"
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
-	"github.com/zhuqinghua/gophercloud.git/testhelper/client"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/hypervisors"
+	"github.com/zhuqinghua/gophercloud/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper/client"
 	"net/http"
 	"testing"
 )

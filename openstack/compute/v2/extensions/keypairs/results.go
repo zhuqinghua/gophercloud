@@ -1,7 +1,7 @@
 package keypairs
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // KeyPair is an SSH key known to the OpenStack Cloud that is available to be injected into

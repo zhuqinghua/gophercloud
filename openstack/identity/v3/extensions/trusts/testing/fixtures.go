@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/tokens"
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v3/tokens"
+	"github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 // HandleCreateTokenWithTrustID verifies that providing certain AuthOptions and Scope results in an expected JSON structure.

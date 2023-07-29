@@ -6,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/keypairs"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/servers"
 )
 
 const keyName = "gophercloud_test_key_pair"

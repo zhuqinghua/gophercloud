@@ -6,10 +6,10 @@ package extensions
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	networking "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/networking/v2"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/security/groups"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	networking "github.com/zhuqinghua/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/security/groups"
 )
 
 func TestSecurityGroupsList(t *testing.T) {

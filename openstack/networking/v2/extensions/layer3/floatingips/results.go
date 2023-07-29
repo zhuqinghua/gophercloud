@@ -1,7 +1,7 @@
 package floatingips
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // FloatingIP represents a floating IP resource. A floating IP is an external

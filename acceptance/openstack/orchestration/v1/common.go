@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/openstack"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 var template = fmt.Sprintf(`

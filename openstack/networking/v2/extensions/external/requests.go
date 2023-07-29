@@ -1,7 +1,7 @@
 package external
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/networks"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/networks"
 )
 
 // CreateOpts is the structure used when creating new external network

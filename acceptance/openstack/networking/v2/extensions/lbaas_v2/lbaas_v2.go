@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
 )
 
 const loadbalancerActiveTimeoutSeconds = 300

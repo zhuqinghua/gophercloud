@@ -3,7 +3,7 @@ package tokens
 import (
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tenants"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v2/tenants"
 )
 
 // Token provides only the most basic information related to an authentication token.

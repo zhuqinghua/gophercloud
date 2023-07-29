@@ -1,7 +1,7 @@
 package policies
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Policy is a firewall policy.

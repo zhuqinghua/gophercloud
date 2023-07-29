@@ -3,8 +3,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/openstack/sharedfilesystems/v2/securityservices"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/openstack/sharedfilesystems/v2/securityservices"
 )
 
 func TestSecurityServiceCreateDelete(t *testing.T) {

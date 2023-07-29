@@ -1,17 +1,20 @@
 package members
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Create member for specific image
 //
 // Preconditions
-//    The specified images must exist.
-//    You can only add a new member to an image which 'visibility' attribute is private.
-//    You must be the owner of the specified image.
+//
+//	The specified images must exist.
+//	You can only add a new member to an image which 'visibility' attribute is private.
+//	You must be the owner of the specified image.
+//
 // Synchronous Postconditions
-//    With correct permissions, you can see the member status of the image as pending through API calls.
+//
+//	With correct permissions, you can see the member status of the image as pending through API calls.
 //
 // More details here: http://developer.openstack.org/api-ref-image-v2.html#createImageMember-v2
 func Create(client *gophercloud.ServiceClient, id string, member string) (r CreateResult) {

@@ -1,7 +1,7 @@
 package roles
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Role represents an API role resource.

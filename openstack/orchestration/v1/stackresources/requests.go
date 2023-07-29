@@ -1,7 +1,7 @@
 package stackresources
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Find retrieves stack resources for the given stack name.

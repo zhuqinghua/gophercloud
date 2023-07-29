@@ -1,7 +1,7 @@
 package images
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // GetResult temporarily stores a Get response.

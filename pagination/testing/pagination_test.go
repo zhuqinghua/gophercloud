@@ -1,7 +1,7 @@
 package testing
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func createClient() *gophercloud.ServiceClient {

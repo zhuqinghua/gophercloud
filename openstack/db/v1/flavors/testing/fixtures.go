@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/testhelper/fixture"
+	"github.com/zhuqinghua/gophercloud/testhelper/fixture"
 )
 
 const flavor = `

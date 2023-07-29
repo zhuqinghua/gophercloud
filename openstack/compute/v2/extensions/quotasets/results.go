@@ -1,7 +1,7 @@
 package quotasets
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // QuotaSet is a set of operational limits that allow for control of compute usage.

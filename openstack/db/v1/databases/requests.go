@@ -1,7 +1,7 @@
 package databases
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // CreateOptsBuilder builds create options

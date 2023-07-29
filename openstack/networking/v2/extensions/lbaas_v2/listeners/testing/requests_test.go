@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	fake "github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/common"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	fake "github.com/zhuqinghua/gophercloud/openstack/networking/v2/common"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/zhuqinghua/gophercloud/pagination"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func TestListListeners(t *testing.T) {

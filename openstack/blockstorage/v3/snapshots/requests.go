@@ -1,8 +1,8 @@
 package snapshots
 
 import (
-	gophercloud "github.com/zhuqinghua/gophercloud.git"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	gophercloud "github.com/zhuqinghua/gophercloud"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the List

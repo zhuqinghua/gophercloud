@@ -63,8 +63,8 @@ Alternatively, add the following to your `.bashrc`:
 ```bash
 gophercloudtest() {
   if [[ -n $1 ]] && [[ -n $2 ]]; then
-    pushd  ~/go/src/github.com/zhuqinghua/gophercloud.git
-    go test -v -tags "fixtures acceptance" -run "$1" github.com/zhuqinghua/gophercloud.git/acceptance/openstack/$2 | tee ~/gophercloud.log
+    pushd  ~/go/src/github.com/zhuqinghua/gophercloud
+    go test -v -tags "fixtures acceptance" -run "$1" github.com/zhuqinghua/gophercloud/acceptance/openstack/$2 | tee ~/gophercloud.log
     popd
 fi
 }

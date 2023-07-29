@@ -6,10 +6,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	blockstorage "github.com/zhuqinghua/gophercloud.git/acceptance/openstack/blockstorage/v2"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/bootfromvolume"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	blockstorage "github.com/zhuqinghua/gophercloud/acceptance/openstack/blockstorage/v2"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/extensions/bootfromvolume"
 )
 
 func TestBootFromImage(t *testing.T) {

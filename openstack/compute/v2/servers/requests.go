@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/flavors"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/images"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/flavors"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/images"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

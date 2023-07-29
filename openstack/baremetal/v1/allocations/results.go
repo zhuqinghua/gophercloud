@@ -3,7 +3,7 @@ package allocations
 import (
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type Allocation struct {

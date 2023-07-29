@@ -1,7 +1,7 @@
 package pools
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // ListOpts allows the filtering and sorting of paginated collections through

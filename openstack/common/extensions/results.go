@@ -1,7 +1,7 @@
 package extensions
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // GetResult temporarily stores the result of a Get call.

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/datastores"
-	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/users"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/db/v1/datastores"
+	"github.com/zhuqinghua/gophercloud/openstack/db/v1/users"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Volume represents information about an attached volume for a database instance.

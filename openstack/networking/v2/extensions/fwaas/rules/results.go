@@ -1,7 +1,7 @@
 package rules
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Rule represents a firewall rule

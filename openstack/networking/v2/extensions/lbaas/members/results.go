@@ -1,7 +1,7 @@
 package members
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Member represents the application running on a backend server.

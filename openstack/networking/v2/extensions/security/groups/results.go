@@ -1,8 +1,8 @@
 package groups
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/security/rules"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // SecGroup represents a container for security group rules.

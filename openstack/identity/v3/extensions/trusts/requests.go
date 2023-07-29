@@ -1,6 +1,6 @@
 package trusts
 
-import "github.com/zhuqinghua/gophercloud.git/openstack/identity/v3/tokens"
+import "github.com/zhuqinghua/gophercloud/openstack/identity/v3/tokens"
 
 type AuthOptsExt struct {
 	tokens.AuthOptionsBuilder

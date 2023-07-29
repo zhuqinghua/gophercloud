@@ -3,7 +3,7 @@ package testing
 import (
 	"fmt"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/db/v1/datastores"
+	"github.com/zhuqinghua/gophercloud/openstack/db/v1/datastores"
 )
 
 const version1JSON = `

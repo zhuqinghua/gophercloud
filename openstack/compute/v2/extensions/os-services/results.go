@@ -1,6 +1,6 @@
 package os_services
 
-import "github.com/zhuqinghua/gophercloud.git/pagination"
+import "github.com/zhuqinghua/gophercloud/pagination"
 
 type OsService struct {
 	ID     int    `json:"id"`

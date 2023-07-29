@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/availabilityzones"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/servers"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/extensions/availabilityzones"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/servers"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func TestServersList(t *testing.T) {

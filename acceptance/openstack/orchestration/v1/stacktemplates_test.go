@@ -6,9 +6,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/openstack/orchestration/v1/stacks"
-	"github.com/zhuqinghua/gophercloud.git/openstack/orchestration/v1/stacktemplates"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/openstack/orchestration/v1/stacks"
+	"github.com/zhuqinghua/gophercloud/openstack/orchestration/v1/stacktemplates"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func TestStackTemplates(t *testing.T) {

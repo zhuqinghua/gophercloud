@@ -1,8 +1,8 @@
 package v2
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/openstack/sharedfilesystems/v2/shares"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/openstack/sharedfilesystems/v2/shares"
 	"testing"
 )
 

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func TestWaitFor(t *testing.T) {

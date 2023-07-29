@@ -3,7 +3,7 @@ package testing
 import (
 	"testing"
 
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 )
 
 func TestApplyDefaultsToEndpointOpts(t *testing.T) {

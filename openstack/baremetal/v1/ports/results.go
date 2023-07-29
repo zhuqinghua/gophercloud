@@ -3,7 +3,7 @@ package ports
 import (
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type portResult struct {

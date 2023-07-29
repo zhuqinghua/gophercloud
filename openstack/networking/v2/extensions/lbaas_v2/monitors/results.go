@@ -1,7 +1,7 @@
 package monitors
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type PoolID struct {

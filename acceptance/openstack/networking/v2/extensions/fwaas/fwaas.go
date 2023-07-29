@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/firewalls"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/policies"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/routerinsertion"
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
 )
 
 // CreateFirewall will create a Firewaill with a random name and a specified
@@ -99,7 +99,7 @@ func CreatePolicy(t *testing.T, client *gophercloud.ServiceClient, ruleID string
 }
 
 // CreateRule will create a Firewall Rule with a random source address and
-//source port, destination address and port. An error will be returned if
+// source port, destination address and port. An error will be returned if
 // the rule could not be created.
 func CreateRule(t *testing.T, client *gophercloud.ServiceClient) (*rules.Rule, error) {
 	ruleName := tools.RandomString("TESTACC-", 8)

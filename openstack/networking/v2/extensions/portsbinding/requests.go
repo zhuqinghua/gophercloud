@@ -1,7 +1,7 @@
 package portsbinding
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/openstack/networking/v2/ports"
+	"github.com/zhuqinghua/gophercloud/openstack/networking/v2/ports"
 )
 
 // Get retrieves a specific port based on its unique ID.

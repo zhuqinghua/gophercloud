@@ -6,7 +6,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Capabilities represents the information of an individual StoragePool.

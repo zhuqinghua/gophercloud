@@ -1,7 +1,7 @@
 package volumes
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // CreateOptsBuilder allows extensions to add additional parameters to the

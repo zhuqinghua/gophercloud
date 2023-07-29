@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zhuqinghua/gophercloud.git/acceptance/clients"
-	"github.com/zhuqinghua/gophercloud.git/acceptance/tools"
-	"github.com/zhuqinghua/gophercloud.git/openstack/compute/v2/extensions/quotasets"
-	"github.com/zhuqinghua/gophercloud.git/openstack/identity/v2/tenants"
-	th "github.com/zhuqinghua/gophercloud.git/testhelper"
+	"github.com/zhuqinghua/gophercloud/acceptance/clients"
+	"github.com/zhuqinghua/gophercloud/acceptance/tools"
+	"github.com/zhuqinghua/gophercloud/openstack/compute/v2/extensions/quotasets"
+	"github.com/zhuqinghua/gophercloud/openstack/identity/v2/tenants"
+	th "github.com/zhuqinghua/gophercloud/testhelper"
 	"os"
 )
 
@@ -77,7 +77,7 @@ func getTenantIDByName(t *testing.T, client *gophercloud.ServiceClient, name str
 	return "", fmt.Errorf("Unable to get tenant ID")
 }
 
-//What will be sent as desired Quotas to the Server
+// What will be sent as desired Quotas to the Server
 var UpdatQuotaOpts = quotasets.UpdateOpts{
 	FixedIps:                 gophercloud.IntToPointer(10),
 	FloatingIps:              gophercloud.IntToPointer(10),
@@ -95,7 +95,7 @@ var UpdatQuotaOpts = quotasets.UpdateOpts{
 	ServerGroupMembers:       gophercloud.IntToPointer(3),
 }
 
-//What the Server hopefully returns as the new Quotas
+// What the Server hopefully returns as the new Quotas
 var UpdatedQuotas = quotasets.QuotaSet{
 	FixedIps:                 10,
 	FloatingIps:              10,

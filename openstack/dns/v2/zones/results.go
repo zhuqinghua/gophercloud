@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 type commonResult struct {

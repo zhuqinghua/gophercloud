@@ -1,7 +1,7 @@
 package roles
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // List is the operation responsible for listing all available global roles

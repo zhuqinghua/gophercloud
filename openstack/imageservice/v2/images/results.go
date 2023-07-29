@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/zhuqinghua/gophercloud.git/internal"
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/internal"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Image model
@@ -145,7 +145,7 @@ type GetResult struct {
 	commonResult
 }
 
-//DeleteResult model
+// DeleteResult model
 type DeleteResult struct {
 	gophercloud.ErrResult
 }

@@ -1,7 +1,7 @@
 package firewalls
 
 import (
-	"github.com/zhuqinghua/gophercloud.git/pagination"
+	"github.com/zhuqinghua/gophercloud/pagination"
 )
 
 // Firewall is an OpenStack firewall.
